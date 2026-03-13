@@ -1,0 +1,14 @@
+{
+  "name": "dockerpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome practice.js"
+  },
+  "author": "Mehedi",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^3.7.4"
+  }
+}
