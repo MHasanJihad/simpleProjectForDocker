@@ -8,5 +8,6 @@ test("My Test", async t => {
     .navigateTo("https://www.google.com");
   await t
     .expect(Selector("title").innerText).eql("Google");
+  console.log("Test passed!");
   await t.wait(2000);
 });
