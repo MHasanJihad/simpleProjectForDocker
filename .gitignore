@@ -1,1 +1,8 @@
 /node_modules
+.pnp.*
+.yarn/*
+dist
+coverage
+*.log
+*.tmp
+yarn.lock

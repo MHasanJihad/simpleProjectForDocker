@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome practice.js"
+    "test": "testcafe chrome:headless --disable-gpu --no-sandbox practice.js"
   },
   "author": "Mehedi",
   "license": "ISC",
